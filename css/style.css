@@ -226,9 +226,54 @@ label {
 	background: #444;
 }
 
+/* Header  */
+.transparent-header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
 
+.header-info li {
+	display: inline-block;
+	margin-right: 40px;
+}
 
+.header-info-icon {
+	margin-right: 15px;
+}
 
+.header-info-icon i {
+	color: #ec6e39;
+	font-size: 14px;
+}
 
+.header-info-text span {
+	font-size: 12px;
+	color: #99a39f;
+	line-height: 28px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: block;
+}
 
+.header-info-text h5 {
+	font-size: 18px;
+	line-height: 28px;
+	color: #fff;
+	font-weight: 600;
+	margin: 0;
+}
 
+.header-login a {
+	color: #cbd6e3;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 2px;
+	font-size: 12px;
+}
+
+.header-login a i {
+	margin-right: 3px;
+}
