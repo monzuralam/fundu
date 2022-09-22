@@ -7,6 +7,15 @@ $('#mobile-menu').meanmenu({
 	meanScreenWidth: "992"
 });
 
+// Data - Background
+$("[data-background]").each(function () {
+	$(this).css("background-image", "url(" + $(this).attr("data-background") + ")")
+});
+
+$("[data-bg-color]").each(function () {
+	$(this).css("background", $(this).attr("data-bg-color"))
+});
+
 // One Page Nav
 var top_offset = $('.header-area').height() - 10;
 $('.main-menu nav ul').onePageNav({
