@@ -277,3 +277,70 @@ label {
 .header-login a i {
 	margin-right: 3px;
 }
+
+.menu-box {
+    border: 2px solid #72737d;
+    padding: 0 40px;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    margin-left: 50px;
+	position: relative;
+}
+
+.main-menu ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+	font-size: 14px;
+    letter-spacing: 1px;
+    padding: 30px 0;
+    display: block;
+}
+
+.main-menu ul li .submenu {
+    position: absolute;
+    top: 105%;
+    background-color: #fff;
+    padding: 10px 0;
+    border-top: 3px solid #f17242;
+    width: 230px;
+	opacity: 0;
+	visibility: hidden;
+	transition: all .3s;
+}
+.main-menu ul li .submenu li {
+    margin: 0;
+    display: block;
+}
+.main-menu ul li .submenu li a {
+    color: #121;
+    padding: 10px 25px;
+}
+.main-menu ul li .submenu li a:hover {
+    color: #f17242;
+}
+
+.main-menu ul li:hover > .submenu {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+
+.f-button {
+    background-color: #ec6e39;
+    color: #fff;
+	font-size: 14px;
+    padding: 18px 40px;
+    border-radius: 30px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 700;
+	transition: all .3s;
+}
+
+.f-button:hover{
+	background-color: #121;
+	color: #fff;
+}
