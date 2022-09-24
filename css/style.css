@@ -184,26 +184,6 @@ label {
 }
 /* button style */
 
-.btn {
-	background: #ec6e39 none repeat scroll 0 0;
-	border: medium none;
-	border-radius: 2px;
-	color: #fff;
-	cursor: pointer;
-	display: inline-block;
-	font-size: 13px;
-	font-weight: 600;
-	letter-spacing: 1px;
-	line-height: 1;
-	margin-bottom: 0;
-	padding: 13px 25px;
-	text-align: center;
-	text-transform: uppercase;
-	touch-action: manipulation;
-	transition: all 0.3s ease 0s;
-	vertical-align: middle;
-	white-space: nowrap;
-}
 .breadcrumb > .active {
 	color: #888;
 }
@@ -468,3 +448,43 @@ label {
     font-weight: 700;
 }
 
+/* FAQ */
+.f-faq{
+	position: relative;
+}
+
+.f-faq .btn-link {
+    color: #121121;
+    font-family: inherit;
+    padding: 22px 30px;
+}
+
+.f-faq .btn-link:hover, .f-faq .btn-link:focus{
+	text-decoration: none;
+}
+
+.f-faq .card {
+    margin-bottom: 20px;
+}
+
+.f-faq .card-header {
+    background: none;
+    padding: 0;
+}
+
+.f-faq .card-body {
+    font-size: 14px;
+    color: #121121;
+}
+
+.f-faq .btn-link.collapsed:after, .f-faq .btn-link:after {
+    content: "+";
+    position: absolute;
+    color: #ec6e39;
+    right: 30px;
+	top: 25px;
+}
+
+.f-faq .btn-link:after {
+    content: "-";
+}
