@@ -289,6 +289,10 @@ label {
 	position: relative;
 }
 
+.main-menu ul li:first-child {
+    margin-left: 0;
+}
+
 .main-menu ul li a {
     color: #fff;
     text-transform: uppercase;
