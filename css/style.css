@@ -23,7 +23,7 @@
 
 
 /* 1. Theme default css */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@300;400;500;600;700&family=Merriweather:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@300;400;500;600;700&family=Merriweather:ital@0;1&display=swap');
  body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
@@ -315,6 +315,7 @@ label {
 .f-button {
     background-color: #ec6e39;
     color: #fff;
+	display: inline-block;
 	font-size: 14px;
     padding: 18px 40px;
     border-radius: 30px;
@@ -487,4 +488,123 @@ label {
 
 .f-faq .btn-link:after {
     content: "-";
+}
+
+/* Section title */
+.f-section-title span {
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #ec6e39;
+	margin-bottom: 15px;
+}
+
+.f-section-title h2 {
+    font-size: 70px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.f-section-title .f-section-back-title {
+    color: #121212;
+    font-size: 250px;
+    position: absolute;
+    font-weight: 400;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    opacity: .06;
+    top: -68px;
+    line-height: .7;
+    text-transform: capitalize;
+    margin: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Event  */
+.event-box {
+    box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.06);
+    background: #fff;
+}
+
+.event-btn {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.event-btn .f-button {
+    background: transparent;
+    border: 2px solid #fff;
+}
+
+.event-btn .f-button:hover {
+    border: 1px solid #ec6e39;
+    background: #ec6e39;
+}
+
+.event-content span {
+    letter-spacing: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: inherit;
+    color: #ec6e39;
+}
+
+.event-content h2 {
+    font-size: 32px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.event-content {
+    padding: 50px;
+}
+
+.event-content p {
+    color: #121121;
+}
+
+.event-small-item-date {
+    background: #ec6e39;
+    position: absolute;
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    padding: 25px 0;
+    top: 30px;
+    right: 30px;
+    border-radius: 100px;
+}
+
+.event-small-item-date span {
+    color: #ffff;
+}
+
+.event-small-item-date .day {
+    font-weight: 700;
+    display: block;
+    font-size: 20px;
+    line-height: 1;
+    font-family: inherit;
+}
+
+.event-small-item-date .month {
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.event-item-content {
+    padding: 30px;
+    background: #fff;
+}
+
+.event-item-content h3 {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 8px 0 12px;
+    color: #121121;
 }
